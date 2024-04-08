@@ -1,5 +1,5 @@
 <h1 align="center">Hello! Welcome to my profile. :wave: </h1>
-<h3 align="center">Nowadays i'm learning about SQL and some other things. If you want to reach me just make an issue in one of my projects and then i'll talk with you. :thumbsup: </h3>
+<h3 align="center">Nowadays i'm learning about SQL and some other things. If you want to reach me just make an issue in this README and then i'll talk with you. :thumbsup: </h3>
 
 <!--
 **VerbalThree/VerbalThree** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
