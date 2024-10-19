@@ -200,20 +200,20 @@ body {
 #github {
     font-size: 50px;
     position: relative;
-    left: -586px;
-    top: -200px;
+    left: -475px;
+    top: -155px;
 }
   
 #linkedin {
     font-size: 50px;
     position: relative;
-    left: -493px;
-    top: -318px;
+    left: -395px;
+    top: -259px;
 }
 
 .subtitle {
     font-size: 35px;
     position: relative;
-    left: 430px;
-    top: -50px;
+    left: 315px;
+    top: -18px;
 }
