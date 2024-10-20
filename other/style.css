@@ -217,3 +217,9 @@ body {
     left: 315px;
     top: -18px;
 }
+
+/* 720p monitors */
+@media (min-width: 1024px) and (max-width: 1024px) and (min-height: 768px) and (max-height: 768px){
+
+    
+}
