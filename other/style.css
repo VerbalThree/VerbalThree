@@ -219,7 +219,7 @@ body {
 }
 
 /* 720p monitors */
-@media (max-height: 1024px){
+@media only screen and (min-width: 1024px) and (min-height:768px) and (max-width:1025px){
     
     .h1--scalingSize {
   font-size: calc(1rem - -5vw);
@@ -250,57 +250,537 @@ body {
     
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px){
+/* Galaxy Note 20 (412x915) */
+@media only screen and (min-width: 412px) and (min-height: 915px) and (max-height:916px){
 
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px){
+    .h1--scalingSize {
+        font-size: calc(1rem - -7vw);
+        position: relative;
+        top: 135px;
+      }
     
-    .subtitle {
+     .subtitle {
         font-size: 20px;
         position: relative;
-        left: 178px;
-        top: 42px; 
+        left: 65px;
+        top: 49px;
       }
     
       #github {
+        font-size: 25px;
+        position: relative;
+        left: -156px;
+        top: -36px;
+      }
+    
+     #linkedin {
+        font-size: 25px;
+        position: relative;
+        left: -122px;
+        top: -102px;
+      }
+}
+
+/* Galaxy Note 20 Ultra (412x883) */
+@media only screen and (max-width: 412px) and (min-height: 883px) and (max-height:884px){
+    .h1--scalingSize {
+        font-size: calc(1rem - -7vw);
+        position: relative;
+        top: 135px;
+      }
+    
+     .subtitle {
+        font-size: 20px;
+        position: relative;
+        left: 65px;
+        top: 49px;
+      }
+    
+      #github {
+        font-size: 25px;
+        position: relative;
+        left: -156px;
+        top: -36px;
+      }
+    
+     #linkedin {
+        font-size: 25px;
+        position: relative;
+        left: -122px;
+        top: -101px;
+      }
+}
+
+/* Galaxy S10/S10+ (360x760) */
+@media only screen and (max-width: 360px) and (max-height: 760px){
+
+    .h1--scalingSize {
+        font-size: calc(1rem - -6vw);
+        position: relative;
+        top: 135px;
+      }
+    
+     .subtitle {
+        font-size: 18px;
+        position: relative;
+        left: 48px;
+        top: 62px;
+      }
+    
+     #github {
+        font-size: 25px;
+        position: relative;
+        left: -129px;
+        top: -15px;
+      }
+    
+     #linkedin {
+        font-size: 25px;
+        position: relative;
+        left: -98px;
+        top: -74px;
+      }
+}
+
+/* Galaxy S20 (360x800) */
+@media only screen and (max-width:360px) and (min-height:800px) and (max-height:801px){
+
+    .h1--scalingSize {
+        font-size: calc(1rem - -6vw);
+        position: relative;
+        top: 135px;
+      }
+    
+     .subtitle {
+        font-size: 18px;
+        position: relative;
+        left: 48px;
+        top: 62px;
+      }
+    
+     #github {
+        font-size: 25px;
+        position: relative;
+        left: -129px;
+        top: -15px;
+      }
+    
+     #linkedin {
+        font-size: 25px;
+        position: relative;
+        left: -98px;
+        top: -76px;
+      }
+}
+
+/* Galaxy S20 Ultra (412x915) */
+@media only screen and (max-width:412px) and (min-height: 915px){
+    .h1--scalingSize {
+        font-size: calc(1rem - -7vw);
+        position: relative;
+        top: 135px;
+      }
+    
+     .subtitle {
+        font-size: 20px;
+        position: relative;
+        left: 65px;
+        top: 49px;
+      }
+    
+      #github {
+        font-size: 25px;
+        position: relative;
+        left: -156px;
+        top: -36px;
+      }
+    
+     #linkedin {
+        font-size: 25px;
+        position: relative;
+        left: -122px;
+        top: -102px;
+      }
+}
+
+/* Galaxy S20+ (384x854) */
+@media only screen and (max-width:384px) and (min-height:854px){
+    .h1--scalingSize {
+        font-size: calc(1rem - -7vw);
+        position: relative;
+        top: 135px;
+      }
+    
+     .subtitle {
+        font-size: 17px;
+        position: relative;
+        left: 71px;
+        top: 71px;
+      }
+    
+      #github {
+        font-size: 25px;
+        position: relative;
+        left: -148px;
+        top: -8px;
+      }
+    
+      #linkedin {
+        font-size: 25px;
+        position: relative;
+        left: -110px;
+        top: -71px;
+      }
+}
+
+/* iPad iPadOS 14.7.1 (810x1080) */
+@media only screen and (max-width:810px) and (min-height:1080px){
+    .h1--scalingSize {
+        font-size: calc(1rem - -8vw);
+        position: relative;
+        top: 170px;
+      }
+      
+      .subtitle {
+        font-size: 30px;
+        position: relative;
+        left: 150px;
+        top: 35px;
+      }
+      
+      #github {
         font-size: 50px;
         position: relative;
-        left: -251px; 
-        top: -45px; 
+        left: -282px;
+        top: -86px;
+      }
+      
+      #linkedin {
+        font-size: 50px;
+        position: relative;
+        left: -215px;
+        top: -185px;
+      }
+}
+
+/* iPhone 11 Pro iOS 14.6 (375x812) */
+@media only screen and (min-width:375px) and (max-width:375px) and (min-height:812px) and (max-height:812px){
+
+    .h1--scalingSize {
+        font-size: calc(1rem - -7vw);
+        position: relative;
+        top: 135px;
+      }
+    
+      .subtitle {
+        font-size: 17px;
+        position: relative;
+        left: 71px;
+        top: 61px;
+      }
+    
+      #github {
+        font-size: 25px;
+        position: relative;
+        left: -148px;
+        top: -19px;
+      }
+    
+     #linkedin {
+        font-size: 25px;
+        position: relative;
+        left: -110px;
+        top: -81px;
+      }
+}
+
+/* iPhone 11 Pro Max iOS 14.6 (414x896) */
+@media only screen and (max-width:414px) and (min-height:896px){
+    .h1--scalingSize {
+        font-size: calc(1rem - -7vw);
+        position: relative;
+        top: 135px;
+      }
+    
+     .subtitle {
+        font-size: 20px;
+        position: relative;
+        left: 65px;
+        top: 49px;
+      }
+    
+      #github {
+        font-size: 25px;
+        position: relative;
+        left: -156px;
+        top: -36px;
+      }
+    
+     #linkedin {
+        font-size: 25px;
+        position: relative;
+        left: -120px;
+        top: -102px;
+      }
+}
+
+/* iPhone 12/13 + Pro  iOS 14.6 (390x844) */
+@media only screen and (min-width:390px) and (max-height:849px){
+
+    .h1--scalingSize {
+        font-size: calc(1rem - -7vw);
+        position: relative;
+        top: 135px;
+      }
+    
+     .subtitle {
+        font-size: 17px;
+        position: relative;
+        left: 71px;
+        top: 71px;
+      }
+    
+      #github {
+        font-size: 25px;
+        position: relative;
+        left: -150px;
+        top: -8px;
+      }
+    
+      #linkedin {
+        font-size: 25px;
+        position: relative;
+        left: -110px;
+        top: -71px;
+      }
+}
+
+/* iPhone 12/13 mini iOS 14.6 (375x812) */
+@media (min-width:375px) and (min-height:812px) and (max-height:813px){
+
+    .h1--scalingSize {
+        font-size: calc(1rem - -7vw);
+        position: relative;
+        top: 135px;
+      }
+    
+      .subtitle {
+        font-size: 17px;
+        position: relative;
+        left: 71px;
+        top: 61px;
+      }
+    
+      #github {
+        font-size: 25px;
+        position: relative;
+        left: -146px;
+        top: -19px;
+      }
+    
+     #linkedin {
+        font-size: 25px;
+        position: relative;
+        left: -110px;
+        top: -81px;
+      }
+}
+
+/* iPhone 12/13 Pro Max iOS 14.6 (428x926) */
+@media only screen and (min-width:428px) and (min-height:926px) and (max-height:927px) {
+    .h1--scalingSize {
+        font-size: calc(1rem - -7vw);
+        position: relative;
+        top: 135px;
+      }
+    
+     .subtitle {
+        font-size: 20px;
+        position: relative;
+        left: 65px;
+        top: 49px;
+      }
+    
+      #github {
+        font-size: 25px;
+        position: relative;
+        left: -160px;
+        top: -36px;
+      }
+    
+     #linkedin {
+        font-size: 25px;
+        position: relative;
+        left: -120px;
+        top: -103px;
+      }
+}
+
+/* iPhone SE 2nd gen iOS 14.6 (375x667) */
+@media only screen and (min-width:375px) and (min-height:667px) and (max-height:668px){
+
+    .h1--scalingSize {
+        font-size: calc(1rem - -7vw);
+        position: relative;
+        top: 135px;
+      }
+    
+      .subtitle {
+        font-size: 17px;
+        position: relative;
+        left: 71px;
+        top: 60px;
+      }
+    
+    #github {
+        font-size: 25px;
+        position: relative;
+        left: -146px;
+        top: -11px;
+      }
+    
+    #linkedin {
+        font-size: 25px;
+        position: relative;
+        left: -110px;
+        top: -66px;
+      }
+}
+
+/* Kindle Fire HDX Linux (800x1280) */
+@media only screen and (min-width:800px) and (min-height:1280px) and (max-height:1281px){
+    .h1--scalingSize {
+        font-size: calc(1rem - -8vw);
+        position: relative;
+        top: 170px;
+      }
+      
+      .subtitle {
+        font-size: 30px;
+        position: relative;
+        left: 150px;
+        top: 46px;
+      }
+      
+      #github {
+        font-size: 50px;
+        position: relative;
+        left: -282px;
+        top: -86px;
+      }
+      
+      #linkedin {
+        font-size: 50px;
+        position: relative;
+        left: -215px;
+        top: -194px;
+      }
+}
+
+/* Galaxy Note 9 (414x846) */
+@media only screen and (min-width:414px) and (min-height:846px) and (max-height:847px) {
+
+    .h1--scalingSize {
+        font-size: calc(1rem - -7vw);
+        position: relative;
+        top: 135px;
+      }
+    
+     .subtitle {
+        font-size: 20px;
+        position: relative;
+        left: 65px;
+        top: 47px;
+      }
+    
+      #github {
+        font-size: 25px;
+        position: relative;
+        left: -156px;
+        top: -36px;
+      }
+    
+     #linkedin {
+        font-size: 25px;
+        position: relative;
+        left: -120px;
+        top: -99px;
+      }
+}
+
+/* Pixel 2 (411x731) */
+@media only screen and (min-width:411px) and (max-height:731px){
+    .h1--scalingSize {
+        font-size: calc(1rem - -7vw);
+        position: relative;
+        top: 135px;
+      }
+    
+      .subtitle {
+        font-size: 18px;
+        position: relative;
+        left: 75px;
+        top: 72px;
+      }
+    
+     #github {
+        font-size: 30px;
+        position: relative;
+        left: -153px;
+        top: -8px;
+      }
+    
+     #linkedin {
+        font-size: 30px;
+        position: relative;
+        left: -110px;
+        top: -72px;
+      }
+}
+
+/* Motorola G14 (625x1081) */
+@media only screen and (max-width:626px) and (min-height:1081px){
+    .subtitle {
+        font-size: 27px;
+        position: relative;
+        left: 108px;
+        top: 65px;
+      }
+    
+     #github {
+        font-size: 40px;
+        position: relative;
+        left: -230px;
+        top: -48px;
+      }
+    
+     #linkedin {
+        font-size: 40px;
+        position: relative;
+        left: -179px;
+        top: -137px;
+      }
+}
+
+@media only screen and (min-width:626px) and (max-height:1081px) and (orientation:landscape){
+    .subtitle {
+        font-size: 35px;
+        position: relative;
+        left: 166px;
+        top: 35px;
+      }
+    
+     #github {
+        font-size: 50px;
+        position: relative;
+        left: -322px;
+        top: -76px;
       }
     
      #linkedin {
         font-size: 50px;
         position: relative;
-        left: -184px;
-        top: -122px;
-      }
-}
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (nax-width: 600px){
-
-    .subtitle {
-        font-size: 20px;
-        position: relative;
-        left: 178px;
-        top: 42px; 
-      }
-    
-      #github {
-        font-size: 50px;
-        position: relative;
-        left: -251px; 
-        top: -45px; 
-      }
-    
-     #linkedin {
-        font-size: 50px;
-        position: relative;
-        left: -184px;
-        top: -122px;
+        left: -250px;
+        top: -154px;
       }
 }
