@@ -628,23 +628,23 @@ body {
       .subtitle {
         font-size: 17px;
         position: relative;
-        left: 71px;
+        left: 65px;
         top: 60px;
-      }
-    
+    }
+
     #github {
         font-size: 25px;
         position: relative;
-        left: -146px;
+        left: -125px;
         top: -11px;
-      }
-    
+    }
+
     #linkedin {
         font-size: 25px;
         position: relative;
-        left: -110px;
-        top: -66px;
-      }
+        left: -86px;
+        top: -65px;
+    }
 }
 
 /* Kindle Fire HDX Linux (800x1280) */
@@ -844,4 +844,34 @@ body {
     left: -416px;
     top: -264px;
   }
+}
+
+/* iPhone XR (414x896) */
+@media only screen and (min-width:414px) and (max-height:896px){
+  .h1--scalingSize {
+    font-size: calc(1rem - -8vw);
+    position: relative;
+    top: 165px;
+}
+
+.subtitle {
+    font-size: 18px;
+    position: relative;
+    left: 84px;
+    top: 88px;
+}
+
+#github {
+    font-size: 27px;
+    position: relative;
+    left: -146px;
+    top: 5px;
+}
+
+#linkedin {
+    font-size: 27px;
+    position: relative;
+    left: -110px;
+    top: -63px;
+}
 }
