@@ -248,5 +248,59 @@ body {
   top: -151px; 
 }
     
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px){
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px){
     
+    .subtitle {
+        font-size: 20px;
+        position: relative;
+        left: 178px;
+        top: 42px; 
+      }
+    
+      #github {
+        font-size: 50px;
+        position: relative;
+        left: -251px; 
+        top: -45px; 
+      }
+    
+     #linkedin {
+        font-size: 50px;
+        position: relative;
+        left: -184px;
+        top: -122px;
+      }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (nax-width: 600px){
+
+    .subtitle {
+        font-size: 20px;
+        position: relative;
+        left: 178px;
+        top: 42px; 
+      }
+    
+      #github {
+        font-size: 50px;
+        position: relative;
+        left: -251px; 
+        top: -45px; 
+      }
+    
+     #linkedin {
+        font-size: 50px;
+        position: relative;
+        left: -184px;
+        top: -122px;
+      }
 }
