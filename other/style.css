@@ -784,3 +784,64 @@ body {
         top: -154px;
       }
 }
+
+/* Moto G14 fixed (2400x1080) */
+@media only screen and (max-width:2400px) and (min-height:1080px){
+
+  .h1--scalingSize {
+    font-size: calc(1rem - -8vw);
+    position: relative;
+    top: 170px;
+  }
+  
+  .subtitle {
+    font-size: 40px;
+    position: relative;
+    left: 182px;
+    top: -18px;
+  }
+  
+  #github {
+    font-size: 55px;
+    position: relative;
+    left: -360px;
+    top: -214px;
+  }
+  
+  #linkedin {
+    font-size: 55px;
+    position: relative;
+    left: -285px;
+    top: -377px;
+  }
+}
+
+@media only screen and (max-width:2400px) and (min-height:1080px) and (orientation:landscape){
+
+  .h1--scalingSize {
+    font-size: calc(1rem - -5vw);
+    position: relative;
+    top: 170px;
+  }
+
+ .subtitle {
+    font-size: 40px;
+    position: relative;
+    left: 310px;
+    top: -18px;
+  }
+
+  #github {
+    font-size: 55px;
+    position: relative;
+    left: -490px;
+    top: -160px;
+  }
+
+  #linkedin {
+    font-size: 55px;
+    position: relative;
+    left: -416px;
+    top: -264px;
+  }
+}
