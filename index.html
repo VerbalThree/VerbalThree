@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>[root@Felipe LandingPage]</title>
-    <link rel="icon" type="image/x-icon" href="terminal-icon.png">
+    <link rel="icon" type="image/x-icon" href="terminal-icon.png" />
     <link rel="stylesheet" href="style.css" />
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -18,8 +18,10 @@
     <div class="flex items-center justify-center" id="main">
       <div class="container my-6 max-w-7xl px-3 sm:px-5 lg:px-12">
         <div class="flex flex-col gap-y-3">
-          <h1>
-            <pre>
+          <h1 class="text-center">
+            <pre
+              class="hidden md:block text-[10px] lg:text-[12px] xl:text-[14px] font-mono"
+            >
                                                                                  
                        ,,    ,,                                                             ,,                   
     `7MM"""YMM       `7MM    db                         `7MM"""Mq.                          db                   
@@ -33,6 +35,15 @@
                                 .JMML.                                                                           
         </pre
             >
+
+            <pre class="md:hidden text-[8px] sm:text-[10px] font-mono">
+___      _  _              ___                 _            
+| __|___ | |(_) _ __  ___  | _ \ ___  _ _  ___ (_) _ _  __ _ 
+| _|/ -_)| || || '_ \/ -_) |  _// -_)| '_|/ -_)| || '_|/ _` |
+|_| \___||_||_|| .__/\___| |_|  \___||_|  \___||_||_|  \__,_|
+                |_|                                           
+        </pre
+            >
           </h1>
           <hr class="dotted" />
           <p class="flex justify-center items-center">
@@ -42,7 +53,7 @@
       </div>
     </div>
 
-    <footer class="flex items-center justify-center">
+    <footer class="flex items-center justify-center" id="footer">
       <nav class="grid grid-cols-2">
         <div class="box">
           <div class="inner">
@@ -74,4 +85,19 @@
       </nav>
     </footer>
   </body>
+
+  <script>
+    console.log(
+      "%c learn about one of these projects!",
+      "font-size: 18px; color: #405DE6; font-weight: bold"
+    );
+    console.log(
+      "%c OpenVoice (open-source): https://github.com/ovapp/OpenVoice",
+      "font-size: 12px; color: #a1bf4c; font-weight: bold"
+    );
+    console.log(
+      "%c simpleOS (open-source): https://github.com/duckduckteam/simpleOS",
+      "font-size: 12px; color: #a1bf4c; font-weight: bold"
+    );
+  </script>
 </html>

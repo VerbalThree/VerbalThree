@@ -4,6 +4,10 @@
   font-style: normal;
 }
 
+*,
+html {
+}
+
 body {
   font-family: Courier Prime, sans-serif;
   background-color: black;
@@ -115,4 +119,8 @@ body {
 
 a:hover {
   color: #4545c8;
+}
+
+#footer {
+  margin-bottom: 12px;
 }
