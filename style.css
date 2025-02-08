@@ -1,0 +1,118 @@
+.courier-prime-regular {
+  font-family: "Courier Prime", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: Courier Prime, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+:root {
+  --text-primary: (#ffffff);
+  --text-secondary: (gray);
+  --border-primart: (#ffffff);
+}
+
+.dotted {
+  border-style: none;
+  width: 100%;
+  height: 16px;
+  line-height: 1rem;
+  overflow: hidden;
+  margin-top: -10px;
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.dotted::before {
+  content: "......................................................................................................................";
+  position: absolute;
+  left: 0;
+  right: 0;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.box {
+  width: 160px;
+  border: 2px dashed #a1bf4c;
+  margin: 0 auto;
+  position: relative;
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+}
+
+.box::after {
+  content: "";
+  position: absolute;
+  left: -6px;
+  top: -13px;
+  font-weight: bold;
+  font-size: 18px;
+  color: red;
+}
+
+.box::before {
+  content: "";
+  position: absolute;
+  right: -6px;
+  top: -13px;
+  font-weight: bold;
+  font-size: 18px;
+  color: red;
+}
+
+.box .inner::after {
+  content: "";
+  position: absolute;
+  left: -6px;
+  bottom: -11px;
+  font-weight: bold;
+  font-size: 18px;
+  color: red;
+}
+
+.box .inner::before {
+  content: "";
+  position: absolute;
+  right: -6px;
+  bottom: -11px;
+  font-weight: bold;
+  font-size: 18px;
+  color: red;
+}
+
+#main {
+  margin-top: 12rem;
+  margin-bottom: 2rem;
+}
+
+.my-projects {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 8px;
+  text-decoration-color: grey;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.projects {
+  text-align: left;
+}
+
+#boxp {
+  width: 20rem;
+}
+
+.date {
+  text-align: center;
+  border: 1px red dotted;
+  padding: 20px 20px 20px 20px;
+}
+
+a:hover {
+  color: #4545c8;
+}
