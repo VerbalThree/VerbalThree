@@ -54,25 +54,6 @@ body {
   text-align: left;
 }
 
-#boxp {
-  width: 20rem;
-}
-
-.date {
-  text-align: center;
-  border: 1px red dotted;
-  padding: 20px 20px 20px 20px;
-  border-top: none;
-}
-
-a:hover {
-  color: #4545c8;
-}
-
-#footer {
-  margin-bottom: 20px;
-}
-
 .box {
   width: 160px;
   border: 2px dashed #a1bf4c;
@@ -220,4 +201,23 @@ a:hover {
   font-weight: bold;
   font-size: 18px;
   color: #a1bf4c;
+}
+
+#boxp {
+  width: 20rem;
+}
+
+.date {
+  text-align: center;
+  border: 1px red dotted;
+  padding: 20px 20px 20px 20px;
+  border-top: none;
+}
+
+a:hover {
+  color: #4545c8;
+}
+
+#footer {
+  margin-bottom: 20px;
 }
